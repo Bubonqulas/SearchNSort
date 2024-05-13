@@ -1,11 +1,10 @@
-Name,Rating,Difficulty,Players,Time,Year,Genre
-1001 Odysseys,4.79412,1,5,60,2024,Cooperative
+1001 Odysseys,4.79412,1.0,5,60,2024,Cooperative
 20 Strong,7.61583,2.4146,1,40,2023,Push Your Luck
 A War of Whispers,7.32712,2.5752,4,60,2019,Area Control
 A.E.G.I.S.: Combining Robot Strategy Game,7.52308,2.125,6,120,2018,War Game
 Ahoy,7.38829,2.8909,4,75,2022,Asymetrical
 Alien Artifacts,6.55537,2.9242,5,60,2017,Tableau Builder
-Almost Words,7.34531,1,8,90,2023,Party
+Almost Words,7.34531,1.0,8,90,2023,Party
 Android: Mainframe,6.56726,1.8372,4,30,2016,Area Control
 Ankh: Gods of Egypt,7.81221,3.1148,5,90,2021,Area Control
 Arcadia Quest,7.61093,2.5343,4,60,2014,Dungeon Crawl
@@ -13,7 +12,7 @@ Arcadia Quest: Inferno,7.87861,2.44,4,120,2017,Dungeon Crawl
 Arcs,7.43698,3.0455,4,90,2024,4X
 Argent: The Consortium,7.63245,3.7824,5,150,2015,Worker Placement
 Ashes Reborn: Rise of the Phoenixborn,7.2943,2.8984,4,120,2015,Fighting
-Bargain Quest,6.84963,2,6,60,2017,Drafting
+Bargain Quest,6.84963,2.0,6,60,2017,Drafting
 Battle for Rokugan,7.40829,2.7583,5,90,2017,Area Control
 BattleCON: Devastation of Indines,7.82853,3.1104,5,45,2013,Fighting
 Blood Rage,7.93271,2.8785,4,90,2015,Area Control
@@ -42,7 +41,7 @@ D6 Shooter,6.61277,1.2,4,60,2016,Push Your Luck
 Diceborn Heroes,6.51086,2.5385,4,90,2019,Cooperative
 Dr. McNinja's Legendary Showdown,6.34706,1.7778,7,30,2014,Take That
 Dragon Punch,6.0284,1.4,2,10,2016,Fighting
-Dragonscales,7.0168,2,5,60,2019,Push Your Luck
+Dragonscales,7.0168,2.0,5,60,2019,Push Your Luck
 Dungeon Dice,6.73326,2.1364,5,20,2013,Take That
 Dungeon Lords,7.35886,3.5678,4,90,2009,Worker Placement
 Dungeon Roll,6.08795,1.3284,4,30,2013,Push Your Luck
@@ -55,9 +54,9 @@ Epic Card Game,6.41336,2.5109,4,40,2015,Fighting
 Epic Seven Arise: The Boardgame,5.9537,2.5,4,90,2023,Dungeon Crawl
 Ex Libris,7.13656,2.5429,4,45,2017,Worker Placement
 Excavation Earth,7.19346,3.7889,4,120,2021,Market Manipulation
-Exceed: BlazBlue – Hazama Box,8.32258,3,2,20,2021,Fighting
-Exceed: Seventh Cross – Church vs. Empire Box,7.87778,3,2,30,2018,Fighting
-Exceed: Street Fighter – Chun-Li Box,8.37132,3,2,25,2019,Fighting
+Exceed: BlazBlue – Hazama Box,8.32258,3.0,2,20,2021,Fighting
+Exceed: Seventh Cross – Church vs. Empire Box,7.87778,3.0,2,30,2018,Fighting
+Exceed: Street Fighter – Chun-Li Box,8.37132,3.0,2,25,2019,Fighting
 Exploding Kittens,6.06028,1.0854,5,15,2015,Hand Management
 Fairy Tale,6.70839,1.7678,5,30,2014,Drafting
 Final Girl,8.32749,2.6567,1,60,2021,Hand Management
@@ -69,27 +68,27 @@ Fort,7.12102,2.4346,4,40,2020,Deck Builder
 Ghost Stories,7.27069,2.9057,4,60,2015,Cooperative
 Gladius,6.97436,1.6667,5,30,2021,Auction
 GoodCritters,7.02505,1.4545,8,45,2018,Bluffing
-Grifters: Nexus,6.85125,2,4,30,2018,Deck Builder
+Grifters: Nexus,6.85125,2.0,4,30,2018,Deck Builder
 Grimslingers,6.22688,2.7391,6,90,2016,Fighting
 Hanafuda,6.84677,1.7105,2,60,2023,Abstract
 Hanamikoji,7.48343,1.6766,2,15,2013,Split & Choose
-Hand of Fate: Ordeals,7.19716,3,4,120,2018,Deck Builder
+Hand of Fate: Ordeals,7.19716,3.0,4,120,2018,Deck Builder
 Hidden Leaders,6.83231,1.7639,6,40,2022,Hand Management
 Hoplomachus: Victorum,8.46415,3.4861,1,90,2023,War Game
 In the Hall of the Mountain King,7.61483,2.8372,5,90,2019,Tableau Builder
 Ironclad,6.86048,3.1667,3,90,2018,Cooperative
 Kabuto Sumo,6.77123,1.2041,4,15,2021,Dexterity
 Kingdom Death: Monster,8.50158,4.2621,4,180,2015,Cooperative
-Kradia: Wild Hunt Festival,7.05805,2,4,90,2019,Cooperative
+Kradia: Wild Hunt Festival,7.05805,2.0,4,90,2019,Cooperative
 Libertalia: Winds of Galecrest,7.47859,2.1277,6,60,2022,Hand Management
 Loup Garou,6.84095,1.1429,1,130,2015,Narrative
 Mage Knight Board Game,8.08566,4.3611,4,240,2011,Dungeon Crawl
-Maid Knight Saga: The Story of Faltisia,6.89,2,6,90,2019,Drafting
+Maid Knight Saga: The Story of Faltisia,6.89,2.0,6,90,2019,Drafting
 Masmorra: Dungeons of Arcadia,7.03161,2.2444,5,90,2017,Dungeon Crawl
 Merchants of the Dark Road,7.38657,3.2108,4,120,2022,Pick Up & Deliver
 Mice and Mystics,7.2347,2.7262,4,90,2012,Dungeon Crawl
 Millennium Blades,7.66489,3.6541,5,120,2016,Hand Management
-Mind MGMT: The Psychic Espionage “Game.”,7.95154,2.8957,5,60,2021,Deduction
+Mind MGMT: The Psychic Espionage “Game.�?,7.95154,2.8957,5,60,2021,Deduction
 Mint Works,6.91739,1.7126,4,20,2017,Worker Placement
 Moa,6.39121,2.6154,5,60,2018,Area Control
 Monikers,7.78945,1.08,16,60,2015,Party
@@ -99,7 +98,7 @@ One Deck Dungeon: Forest of Shadows,7.11109,2.3276,2,45,2017,Push Your Luck
 Overboss: A Boss Monster Adventure,7.34702,2.0227,5,30,2021,Tile Placement
 Perseverance: Castaway Chronicles – Episodes 1 & 2,7.7295,4.2605,4,180,2022,Worker Placement
 Pigment,6.11621,1.75,3,20,2017,Worker Placement
-Pirate Loot: Base Set,6.13639,2,4,60,2015,Take That
+Pirate Loot: Base Set,6.13639,2.0,4,60,2015,Take That
 Quantum,7.23823,2.4742,4,60,2013,Area Control
 Reavers of Midgard,7.36814,2.9167,4,120,2019,Worker Placement
 Rising Sun,7.77674,3.3017,5,120,2018,Area Control
@@ -116,7 +115,7 @@ Sherlock Holmes: Four Investigations,6.91606,1.4286,1,60,2014,Narrative
 Skulk Hollow,7.24995,2.1818,2,40,2019,Fighting
 Slap .45,6.28753,1.3333,7,20,2015,Dexterity
 Sorcerer City,7.4003,2.2333,6,60,2020,Tile Placement
-Space Lion: Divide and Conquer,7.96,2,5,60,2024,Hand Management
+Space Lion: Divide and Conquer,7.96,2.0,5,60,2024,Hand Management
 Specter Ops: Broken Covenant,7.55014,2.4,5,120,2018,Deduction
 Spire's End,7.66085,2.1053,2,120,2019,Fighting
 Spire's End: Hildegard,7.62671,1.7619,2,180,2022,Fighting
@@ -135,7 +134,7 @@ The Witcher Adventure Game,6.34001,2.459,4,120,2014,Adventure
 The Witcher: Old World,8.03946,2.8445,5,150,2023,Adventure
 The Witches,6.16689,1.6639,4,90,2013,Adventure
 This War of Mine: The Board Game,7.77661,3.3151,6,120,2017,Cooperative
-Tidal Blades 2: Rise of the Unfolders,8.2434,3,4,120,2024,Dungeon Crawl
+Tidal Blades 2: Rise of the Unfolders,8.2434,3.0,4,120,2024,Dungeon Crawl
 Tidal Blades: Heroes of the Reef,7.51293,2.8947,4,90,2020,Worker Placement
 Tiny Epic Galaxies,7.33669,2.1481,5,45,2015,Push Your Luck
 Too Many Bones,8.34653,3.8539,4,120,2017,Cooperative
@@ -155,7 +154,7 @@ Wayward,6.68022,2.6667,5,60,2019,Cooperative
 Welcome Back to the Dungeon,6.71251,1.3231,4,30,2016,Push Your Luck
 Welcome to the Dungeon,6.54116,1.2289,4,30,2015,Push Your Luck
 Welcome To...,7.54045,1.8351,100,25,2018,Roll & Write
-Witchbound,8.55,1,2,90,2024,Narrative
+Witchbound,8.55,1.0,2,90,2024,Narrative
 Wonderland's War,8.1264,3.0265,5,125,2022,Area Control
 Xia: Legends of a Drift System,7.86158,3.1811,5,180,2014,Pick Up & Deliver
 Yamatai,7.19333,2.9659,4,80,2017,Area Control

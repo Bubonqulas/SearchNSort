@@ -1,13 +1,13 @@
 public class Games {
     private String name;
-    private int rating;
-    private String difficulty;
+    private float rating;
+    private float difficulty;
     private int players;
     private int time;
     private int year;
     private String genre;
 
-    public Games(String name, int rating, String difficulty, int players, int time, int year, String genre) {
+    public Games(String name, float rating, float difficulty, int players, int time, int year, String genre) {
         this.name = name;
         this.rating = rating;
         this.difficulty = difficulty;
@@ -21,11 +21,11 @@ public class Games {
         return name;
     }
 
-    public int getRating() {
+    public float getRating() {
         return rating;
     }
 
-    public String getDifficulty() {
+    public float getDifficulty() {
         return difficulty;
     }
 
