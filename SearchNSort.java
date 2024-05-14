@@ -140,76 +140,77 @@ public class SearchNSort {
     public static void insertionSort(List<Games> games, String choice) {
         for (int i = 1; i < games.size(); i++) {
 
-            if(choice.equals("name")){
-            Games key = games.get(i);
-            int j = i - 1;
-            while (j >= 0 && games.get(j).getName().compareToIgnoreCase(key.getName()) > 0) {
-                games.set(j + 1, games.get(j));
-                j = j - 1;
-            }
-            games.set(j + 1, key);
-            } else if(choice.equals("genre")){
+            if (choice.equals("name")) {
+                Games key = games.get(i);
+                int j = i - 1;
+                while (j >= 0 && games.get(j).getName().compareToIgnoreCase(key.getName()) > 0) {
+                    games.set(j + 1, games.get(j));
+                    j = j - 1;
+                }
+                games.set(j + 1, key);
+            } else if (choice.equals("genre")) {
                 Games key = games.get(i);
                 int j = i - 1;
                 while (j >= 0 && games.get(j).getGenre().compareToIgnoreCase(key.getGenre()) > 0) {
                     games.set(j + 1, games.get(j));
                     j = j - 1;
-            }
-        }
-    }
-
-    public static void bubbleSort(List<Games> games, String choice) {
-        int gameSize = games.size();
-        boolean swapped;
-        for (int i = 0; i < gameSize - 1; i++) {
-            swapped = false;
-            for (int j = 0; j < gameSize - i - 1; j++) {
-                boolean shouldSwap = false;
-                switch (choice) {
-                    case "rating":
-                        if (games.get(j).getRating() > games.get(j + 1).getRating()) {
-                            shouldSwap = true;
-                        }
-                        break;
-                    case "difficulty":
-                        if (games.get(j).getDifficulty() > games.get(j + 1).getDifficulty()) {
-                            shouldSwap = true;
-                        }
-                        break;
-                    case "time":
-                        if (games.get(j).getTime() > games.get(j + 1).getTime()) {
-                            shouldSwap = true;
-                        }
-                        break;
-                    case "players":
-                        if (games.get(j).getPlayers() > games.get(j + 1).getPlayers()) {
-                            shouldSwap = true;
-                        }
-                        break;
-
-                }
-                if (shouldSwap) {
-                    Games temp = games.get(j);
-                    games.set(j, games.get(j + 1));
-                    games.set(j + 1, temp);
-                    swapped = true;
                 }
             }
-            if (!swapped)
-                break;
         }
-    }
 
-    public static int checkInput(String input, int min, int max) {
-        try {
-            int number = Integer.parseInt(input);
-            if (number >= min && number <= max) {
-                return number;
-            } else {
+        public static void bubbleSort (List < Games > games, String choice){
+            int gameSize = games.size();
+            boolean swapped;
+            for (int i = 0; i < gameSize - 1; i++) {
+                swapped = false;
+                for (int j = 0; j < gameSize - i - 1; j++) {
+                    boolean shouldSwap = false;
+                    switch (choice) {
+                        case "rating":
+                            if (games.get(j).getRating() > games.get(j + 1).getRating()) {
+                                shouldSwap = true;
+                            }
+                            break;
+                        case "difficulty":
+                            if (games.get(j).getDifficulty() > games.get(j + 1).getDifficulty()) {
+                                shouldSwap = true;
+                            }
+                            break;
+                        case "time":
+                            if (games.get(j).getTime() > games.get(j + 1).getTime()) {
+                                shouldSwap = true;
+                            }
+                            break;
+                        case "players":
+                            if (games.get(j).getPlayers() > games.get(j + 1).getPlayers()) {
+                                shouldSwap = true;
+                            }
+                            break;
+
+                    }
+                    if (shouldSwap) {
+                        Games temp = games.get(j);
+                        games.set(j, games.get(j + 1));
+                        games.set(j + 1, temp);
+                        swapped = true;
+                    }
+                }
+                if (!swapped)
+                    break;
+            }
+        }
+
+        public static int checkInput (String input,int min, int max){
+            try {
+                int number = Integer.parseInt(input);
+                if (number >= min && number <= max) {
+                    return number;
+                } else {
+                    return 99;
+                }
+            } catch (NumberFormatException e) {
                 return 99;
             }
-        } catch (NumberFormatException e) {
-            return 99;
         }
     }
 }
