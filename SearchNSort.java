@@ -140,7 +140,7 @@ public class SearchNSort {
     public static void insertionSort(List<Games> games, String choice) {
         for (int i = 1; i < games.size(); i++) {
 
-            if(choice == "name"){
+            if(choice.equals("name")){
             Games key = games.get(i);
             int j = i - 1;
             while (j >= 0 && games.get(j).getName().compareToIgnoreCase(key.getName()) > 0) {
@@ -148,7 +148,7 @@ public class SearchNSort {
                 j = j - 1;
             }
             games.set(j + 1, key);
-            } else if(choice == "genre"){
+            } else if(choice.equals("genre")){
                 Games key = games.get(i);
                 int j = i - 1;
                 while (j >= 0 && games.get(j).getGenre().compareToIgnoreCase(key.getGenre()) > 0) {
