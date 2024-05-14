@@ -186,7 +186,6 @@ public class SearchNSort {
                                 shouldSwap = true;
                             }
                             break;
-
                     }
                     if (shouldSwap) {
                         Games temp = games.get(j);
