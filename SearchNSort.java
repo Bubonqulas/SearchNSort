@@ -92,7 +92,7 @@ public class SearchNSort {
 
             } else if (input == 3) {
                 System.out.println("Here are the games filtered  Alphabetically(ascending):\n");
-                insertionSort(games, "name");
+                insertionSort(games);
                 Thread.sleep(3000);// for readability
                 printGames(games);
 
@@ -103,10 +103,7 @@ public class SearchNSort {
                 printGames(games);
 
             } else if (input == 5) {
-                System.out.println("Here are the games filtered by Genre(ascending):\n");
-                insertionSort(games, "name");
-                Thread.sleep(3000);// for readability
-                printGames(games);
+
             } else if (input == 6) {
                 System.out.println("Here are the games filtered based on Rating(ascending):\n");
                 bubbleSort(games, "rating");
@@ -137,7 +134,21 @@ public class SearchNSort {
 
     }
 
-    public static void insertionSort(List<Games> games, String choice) {
+    public static void linearSearch() {
+        // for sorting based on genre
+    }
+
+    public static void binarySearch() {
+        // for searching for a specfic game
+        // for the searching alg
+    }
+
+    public static void tempLinear() {
+        /// linear
+        System.out.println("l");
+    }
+
+    public static void insertionSort(List<Games> games) {
         for (int i = 1; i < games.size(); i++) {
             Games key = games.get(i);
             int j = i - 1;
