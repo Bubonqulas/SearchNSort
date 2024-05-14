@@ -46,7 +46,7 @@ public class Games {
     }
 
     public String toString() {
-        return name + ":\nRating: " + rating + ", Difficulty: " + difficulty + ", Players: " + players +
-                ", Time: " + time + ", Year: " + year + ", Genre: " + genre;
+        return name + ":\n ~ Rating: " + rating + "\n ~ Difficulty: " + difficulty + "\n ~ Players: " + players +
+                "\n ~ Time: " + time + "\n ~ Year: " + year + "\n ~ Genre: " + genre + "\n";
     }
 }
