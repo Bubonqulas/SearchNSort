@@ -92,34 +92,37 @@ public class SearchNSort {
 
             } else if (input == 3) {
                 System.out.println("Here are the games filtered  Alphabetically(ascending):\n");
-                insertionSort(games);
-                Thread.sleep(3000);// for readbility
+                insertionSort(games, "name");
+                Thread.sleep(3000);// for readability
                 printGames(games);
 
             } else if (input == 4) {
                 System.out.println("Here are the games filtered based on Difficulty(ascending):\n");
                 bubbleSort(games, "difficulty");
-                Thread.sleep(3000);// for readbility
+                Thread.sleep(3000);// for readability
                 printGames(games);
 
             } else if (input == 5) {
-
+                System.out.println("Here are the games filtered by Genre(ascending):\n");
+                insertionSort(games, "name");
+                Thread.sleep(3000);// for readability
+                printGames(games);
             } else if (input == 6) {
                 System.out.println("Here are the games filtered based on Rating(ascending):\n");
                 bubbleSort(games, "rating");
-                Thread.sleep(3000);// for readbility
+                Thread.sleep(3000);// for readability
                 printGames(games);
 
             } else if (input == 7) {
                 System.out.println("Here are the games filtered based on Player Count(ascending):\n");
                 bubbleSort(games, "players");
-                Thread.sleep(3000);// for readbility
+                Thread.sleep(3000);// for readability
                 printGames(games);
 
             } else if (input == 8) {
                 System.out.println("Here are the games filtered based on Time(ascending):\n");
                 bubbleSort(games, "time");
-                Thread.sleep(3000);// for readbility
+                Thread.sleep(3000);// for readability
                 printGames(games);
 
             } else if (input == 9) {
@@ -134,15 +137,24 @@ public class SearchNSort {
 
     }
 
-    public static void insertionSort(List<Games> games) {
+    public static void insertionSort(List<Games> games, String choice) {
         for (int i = 1; i < games.size(); i++) {
+
+            if(choice == "name"){
             Games key = games.get(i);
             int j = i - 1;
-            while (j >= 0 && games.getName(j) > key.getName() > 0) {
+            while (j >= 0 && games.get(j).getName().compareToIgnoreCase(key.getName()) > 0) {
                 games.set(j + 1, games.get(j));
                 j = j - 1;
             }
             games.set(j + 1, key);
+            } else if(choice == "genre"){
+                Games key = games.get(i);
+                int j = i - 1;
+                while (j >= 0 && games.get(j).getGenre().compareToIgnoreCase(key.getGenre()) > 0) {
+                    games.set(j + 1, games.get(j));
+                    j = j - 1;
+            }
         }
     }
 
