@@ -1,3 +1,10 @@
+// Games,java
+/*
+  Title: Games class
+  Author: Hassan Darky
+  Date: May 10th, 2024
+ */
+
 public class Games {
     private String name;
     private float rating;
@@ -6,6 +13,8 @@ public class Games {
     private int time;
     private int year;
     private String genre;
+
+    // PROCESSING
 
     public Games(String name, float rating, float difficulty, int players, int time, int year, String genre) {
         this.name = name;
@@ -21,12 +30,12 @@ public class Games {
         return name;
     }
 
-    public float getRating() {
-        return rating;
-    }
-
     public float getDifficulty() {
         return difficulty;
+    }
+
+    public float getRating() {
+        return rating;
     }
 
     public int getPlayers() {
